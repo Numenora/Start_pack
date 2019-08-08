@@ -160,17 +160,16 @@ entry: {
 
 **sass**
 ```sass
-.items{
+.items
     @include row-flex()
     @include md(justify-content, center)
  
-    .item{
+    &__item
         @include col()
         @include size(3)
         @include size-md(5)
         @include size-xs(10)
-    }
-}
+    
 ```
 **Результат**
 ```css
