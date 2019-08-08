@@ -179,7 +179,7 @@ entry: {
     margin-left: -15px;
     margin-right: -15px;
 }
-.items .item {
+.items__item {
     box-sizing: border-box;
     margin-left: 15px;
     margin-right: 15px;
@@ -190,12 +190,12 @@ entry: {
     .items {
         justify-content: center;
     }
-    .items .item {
+    .items__item {
         width: calc(100% / 12 * 5 - 30px);
     }
 }
 @media screen and (max-width: 576px) {
-    .items .item {
+    .items__item {
         width: calc(100% / 12 * 10 - 30px);
     }
 }
